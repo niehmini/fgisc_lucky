@@ -1,0 +1,30 @@
+* {
+  background: #FFFFF4;
+  font-family: 'Cactus Classical Serif', serif;
+}
+
+.top{
+    background-color: #f6b1b1;
+    padding: 30px ;
+}
+.title {
+    font-size: 50px;
+    background-color: #f6b1b1;
+}
+.explan{
+    font-size: 20px;
+    background-color: #f6b1b1;
+}
+
+button {
+    font-size: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+#result {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+

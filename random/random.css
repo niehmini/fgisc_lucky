@@ -1,0 +1,20 @@
+*{
+    background: #FFFFF4;
+    font-family:'Cactus Classical Serif', serif ;
+}
+
+.title{
+    background-color: #d6f7c8;
+    font-size: 25pt;
+    padding: 30px ;
+}
+
+.inside{
+    font-size: 20pt;
+}
+
+
+#names{
+    font-size: 15pt;
+}
+

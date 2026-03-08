@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="random.css">
+
+</head>
+<body>
+    <div class="top">
+        <div class="title">隨機抽籤</div>
+    </div>
+    <br>
+    <div class="inside"> 
+        <div id="text">
+            <b class="text-title">文字抽籤</b>
+            <div class="input"> 請輸入要抽取的名單 </div>
+            <textarea id="names" oninput="this.style.height='auto';this.style.height=this.scrollHeight+'px';"></textarea>
+            <button onclick="drawName()">送出名單</button>
+            <div id="text-result"></div>
+            <script src="random.js"></script>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="number">
+            <b class="number-title">數字抽籤</b>
+            <div class="range">請輸入要抽取範圍的上下限</div>
+            <span>
+                下限<input type="number" id="down" min="" max="" step="1" value="1">
+                上限<input type="number" id="up" min="" max="" step="1" value="10">
+            </span>
+            <button onclick="drawNumber()">送出範圍</button>
+            <div id="num-result"></div>
+
+        </div>
+    </div>
+</body>
+</html>
